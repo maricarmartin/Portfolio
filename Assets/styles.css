@@ -1,0 +1,112 @@
+
+<style>
+
+* {
+  box-sizing: border-box;
+  background-color: black;
+}
+
+body {
+  font-family: 'Times New Roman', serif;
+
+}
+
+
+header { 
+  border: dotted;
+  background-color: black;
+  padding: 20px;
+  text-align: right;
+  font-size: 20px;
+  color: cyan;
+  cursor: pointer; 
+}
+.navlist {
+  border: dotted;
+  letter-spacing: 5px;
+  position: relative;
+  float: left;
+  width: 20%;
+  height: 3000px;
+  background: black;
+  padding: 20px;
+  list-style-type: none;
+  padding: 0;
+  font-family: 'Times New Roman', serif;
+  font-size: 40px;
+  color: fuchsia;
+  text-shadow: 3px 3px white;
+  font-style: italic;
+}
+h1 {
+  border: dotted;
+  list-style-type:none;
+  overflow: hidden;
+  padding: 20px;
+  text-align: left;
+  background-color: black;
+  position: sticky;
+  font-size: 20px;
+  color: yellow;
+  font-family: Georgia, serif;
+
+}
+.AboutMe {
+  float: right;
+  text-align: center;
+  border-style: dotted;
+  margin-right: 80px;
+  padding: 20px;
+  width: 60%;
+  height: 700%;
+  font-family: 'Times New Roman', serif;
+  font-size: medium;
+  background-color: black;
+  color: pink;
+  margin-bottom: 20px;
+}
+.Work {
+  float: right;
+  text-align: center;
+  border-style: dotted;
+  margin-right: 80px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 60%;
+  font-family: 'Times New Roman', serif;
+  background-color: black;
+  color: aqua;
+}
+
+.ContactMe {
+ float: right;
+  text-align: center;
+  border-style: dotted;
+  margin-top: 20px;
+  margin-right: 80px;
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 60%;
+  font-family: 'Times New Roman', serif;
+  background-color: black;
+  color: yellowgreen;
+}
+
+
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+  .footer {
+    padding: 10px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+
+</style>
